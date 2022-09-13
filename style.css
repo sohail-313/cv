@@ -1,13 +1,38 @@
-body{
-    background: #F5E8C7;
+*{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
 }
-h1,h2,h3,h4,h5,h6{
-    color: #6F4C5B;
+
+body{
+    /* background: rgb(31, 9, 9); */
+    background: black;
+    color: white;
+}
+h1,h2{
+    color: pink;
+}
+
+dt , a{
+    text-align: center;
+    color: teal;
+}
+td h3{
+    text-align: left;
+    color: teal;
 }
 hr{
     border-style: none;
-    border-color: rgb(251, 70, 109);
+    border-color: pink;
     border-top-style: dotted;
     border-width:5px ;
     width: 30%;
+}
+
+table{
+    margin: auto;
+}
+
+td{
+text-align: left;
 }
